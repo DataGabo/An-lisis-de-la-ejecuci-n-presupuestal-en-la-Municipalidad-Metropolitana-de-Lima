@@ -1,2 +1,26 @@
-# An-lisis-de-la-ejecuci-n-presupuestal-en-la-Municipalidad-Metropolitana-de-Lima
-El dashboard toma como base el presupuesto ejecutado por la municipalidad durante el año 2025 disponible en la herramienta de consulta amigable del portal de Transparencia. El dashboard busca ser una herramienta visual para identificar en qué rubros se invierte y gasta más.
+# Análisis de la ejecución presupuestal en la Municipalidad Metropolitana de Lima
+El dashboard toma como base el presupuesto ejecutado por la municipalidad durante el año 2025 disponible en la herramienta de consulta amigable del portal de Transparencia. El proyecto busca ser una herramienta visual para identificar en qué rubros se invierte y gasta más.
+
+## Introducción
+La Municipalidad Metropolitana de Lima es la municipalidad con mayor presupuesto asignado con un total de 3 206 millones de soles en el Presupuesto Institucional Modificado del 2025. Esto debido a la cantidad de sus habitantes y de las necesidades básicas que necesitan cubrirse. Es por ello que es importante realizar un seguimiento a la ejecución presupuestal donde se evidencie en qué gasta la municipalidad y en qué se invierte el presupuesto público.
+
+## Preparación de datos
+Con este objetivo se descargó del portal de Transparencia la información de la ejecución presupuestal de la Municipalidad Metropolitana de Lima durante el año 2025 (el último año). Con dicha información descargada, se procedió a clasificar los datos en 10 categorías: En primer lugar, la categoría de acciones comunes se refiere a gastos administrativos y de gestión que no necesariamente se asignan a un producto o servicio. En segundo lugar, la categoría de atención a las poblaciones vulnerables hace alusión al presupuesto asignado hacia servicios o productos que están dirigidos en beneficio de poblaciones vulnerables como niños, adultos mayores, etc. En tercer lugar, la categoría de ciclovías se refiere al presupuesto asignado a la creación, mantenimiento y señalización de ciclovías en beneficio del transporte sostenible. En cuarto lugar, la categoría de cultura y patrimonio está dirigida al presupuesto asignado a la puesta en valor del patrimonio cultural, la conscientización o la restauración de monumentos históricos. En quinto lugar, la categoría de espacios públicos y recreación se refiere a la creación y mantenimiento de parques, espacios públicos y servicios de deporte en favor de la comunidad y juventudes. En sexto lugar, la categoría de estudios de pre inversión hace alusión a informes técnicos y económicos que se realizan antes de ejecutar una inversión. En séptimo lugar la categoría de infraestructura vial hace alusión a la semaforización, construcción de carreteras, caminos, puentes peatonales, y cualquier infraestructura que favorezca el paso de vehículos y peatones. En octavo lugar, la categoría de seguridad ciudadana se refiere al presupuesto asignado para luchar contra la inseguridad por parte de la municipalidad y acciones comunitarias con la compra de materiales, cámaras de seguridad, vehículos de patrullaje, etc. En noveno lugar, la categoría de de seguridad contra desastres naturales está referida al presupuesto que se asigna para proteger a la población de los siniestros naturales a través del mejoramiento de contenciones, infraestructura de defensa civil, etc. Finalmente la categoría de otros se refiere a fondos públicos para gastos operativos como gastos administrativos o de gestión interna, sueldos a empleados o proyectos de inversión iniciales que aún no se vinculan a programas específicos.
+De acuerdo a estas categorías podremos leer el dashboard, en este se visualiza el Presupuesto Institucional Modificado, el avance de la ejecución del presupuesto y el total girado, también se visualiza una tarjeta de segmentación de datos con las categorías expuestas anteriormente y por último se pueden visualizar 3 gráficos: un anillo de avance de la ejecución presupuestal, 1 gráfico de embudo con el total del devengado por producto y 1 treemap con el total de PIM por producto.
+
+<img width="1327" height="746" alt="image" src="https://github.com/user-attachments/assets/c5ad6269-a4cc-4edb-9426-d8c02114c18f" />
+
+### Comparación de Infraestructura vial / Espacios públicos y recreación / Cultura y Patrimonio
+En el dashboard original podemos ver que la categoría donde la Municipalidad gasta más es con mucha diferencia la categoría de infraestructura vial donde se invirtió un total de 1 208 millones en el año 2025. Si lo comparamos con los espacios públicos y la cultura, se ve una clara inclinación por invertir mucho más en infraestructura vial.
+
+<img width="1324" height="743" alt="image (1)" src="https://github.com/user-attachments/assets/49eeda7c-40c9-4c90-b023-bc84c2097838" />
+
+### Comparación de Infraestructura vial y Seguridad ciudadana
+Si comparamos estas dos categorías, no se invierte lo suficiente en seguridad ciudadana, dado que en proporción la inversión en seguridad no llega ni siquiera a ser el 10% de lo que se invierte en nifraestructura vial. Esto es alarmante sobre todo por el crecimiento del fenómeno de la criminalidad en el país que se ha observado en los últimos años.
+
+<img width="1326" height="742" alt="image (2)" src="https://github.com/user-attachments/assets/cd6956a2-7142-4024-9b4f-f634d70cdcfd" />
+
+### Comparación de Infraestructura vial y Atención a las poblaciones vulnerables
+Finalmente, nuevamente tenemos una clara tendencia a la infraestructura vial por sobre personas de poblaciones vulnerables que necesitan productos y servicios especiales cuya inversión necesita ser especializada y primordial.
+
+<img width="1324" height="741" alt="image (3)" src="https://github.com/user-attachments/assets/33b6eb9d-3657-4f3a-94b0-8d3314bc3953" />
